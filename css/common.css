@@ -6,9 +6,8 @@ body {
     background-color: #5500FF;
 }
 
-.navbar-toggler {
-    border: none;
-    margin-right: 12px;
+.navbar-nav {
+    margin: auto;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -22,4 +21,19 @@ body {
     color: white;
     border-bottom: 2px solid white;
     font-weight: 500;
+}
+
+.navbar-toggler {
+    border: none;
+    margin-right: 12px;
+}
+
+.titulo-pagina {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
 }
