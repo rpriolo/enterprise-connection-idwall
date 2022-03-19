@@ -1,21 +1,22 @@
-.coluna-usuario {
-    margin: auto;
-    padding: 30px;
-    position: relative;
+.coluna-usuario, .coluna-orgao {
+    padding: 30px 30px;
 }
 
 @media(min-width: 992px) {
-.coluna-usuario {
-    border-right: 1px solid rgba(0, 0, 0, 0.125);
-}
+    .coluna-usuario {
+        border-right: 1px solid rgba(0, 0, 0, 0.125);
+    }
 }
 
 @media(max-width: 991px) {
-.coluna-usuario {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-}
+    .coluna-usuario {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    }
 }
 
+form label {
+    text-transform: lowercase;
+}
 
 .div-pesquisa {
     padding: 0;
@@ -34,7 +35,7 @@
 }
 
 .item-form {
-    margin: 10px 0 10px 20px;
+    margin: 0 0 0 20px;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 7px;
     height: 37px;
@@ -85,10 +86,6 @@ button, .botao-pesquisa {
     padding: 10px;
     font-size: 2em;
     font-weight: 900;
-}
-
-.coluna-orgao {
-    padding: 25px;
 }
 
 .status-icon {
