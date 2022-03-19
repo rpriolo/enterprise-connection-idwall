@@ -2,11 +2,24 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-.navbar {
+.navbar-custom {
     background-color: #5500FF;
 }
 
-.navbar-brand {
-    display: flex;
-    align-items: center;
+.navbar-toggler {
+    border: none;
+    margin-right: 12px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    padding: 8px 2px;
+    margin: 0px 10px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: white;
+    border-bottom: 2px solid white;
+    font-weight: 500;
 }
