@@ -11,16 +11,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <!-- Estilização personalizada -->
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Estilização personaliz ada -->
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/monitor.css">
+
     <title>idwall - monitor</title>
 </head>
 
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-custom navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-custom navbar-dark fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="./imagens/logo-min.png" alt="">
@@ -69,6 +72,79 @@
 
     <main>
         <h1 class="titulo-pagina">Monitor</h1>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 coluna-usuario">
+                    <div class="container div-pesquisa">
+                        <form class="pesquisa">
+                            <label for="usuario">usuário:</label>
+                            <input type="text" id="usuario" class="barra-pesquisa item-form" value="VictorBuchalla">
+                            <button type="submit" value="buscar" class="botao-pesquisa item-form">
+                                <span class="material-icons">search</span>
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="container div-info">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Pré-processando</h5>
+                                <p class="card-text">117</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Processando</h5>
+                                <p class="card-text">236</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Finalizado</h5>
+                                <p class="card-text">408</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="col-lg-6 coluna-orgao">
+                    <div class="container div-pesquisa">
+                        <form class="pesquisa">
+                            <label for="usuario">órgão:</label>
+                            <input type="text" id="usuario" class="barra-pesquisa item-form" value="ProcessosTJSE">
+                            <button type="submit" value="buscar" class="botao-pesquisa item-form">
+                                <span class="material-icons">search</span>
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="container div-info">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Consultas em análise</h5>
+                                <p class="card-text">1.137</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">status</h5>
+                                <p class="card-text">
+                                    <span class="material-icons status-icon">fiber_manual_record</span>
+                                    Online
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

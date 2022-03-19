@@ -1,5 +1,6 @@
 body {
     font-family: 'Inter', sans-serif;
+    background-color: #fafafa;
 }
 
 .navbar-custom {
@@ -31,9 +32,11 @@ body {
 .titulo-pagina {
     display: flex;
     justify-content: center;
-    padding: 30px;
+    margin: 65px 0 0 0;
+    /* padding: 30px 2% 2% 2%; */
+    padding: 2%;
     font-weight: 900;
     letter-spacing: 1px;
     text-transform: uppercase;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.172); */
 }
