@@ -1,0 +1,12 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    background-color: #5500FF;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
