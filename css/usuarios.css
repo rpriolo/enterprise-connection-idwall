@@ -1,19 +1,3 @@
-/* .coluna-usuario, .coluna-orgao {
-    padding: 30px 30px;
-}
-
-@media(min-width: 992px) {
-    .coluna-usuario {
-        border-right: 1px solid rgba(0, 0, 0, 0.125);
-    }
-}
-
-@media(max-width: 991px) {
-    .coluna-usuario {
-        border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-    }
-} */
-
 @media(max-width: 991px) {
     .titulo-pagina {
         padding: 30px 0 30px 0;
@@ -56,6 +40,10 @@ button, .botao-pesquisa {
     align-items: center;
 }
 
+.material-icons {
+    color: white;
+}
+
 .div-botao-adicionar {
     display: flex;
     justify-content: flex-start;
@@ -93,69 +81,6 @@ button, .botao-pesquisa {
     min-height: 15px;
 }
 
-/* #Adicionar {
-    background-color: #5500FF;
-    color: white;
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    position:absolute; 
-    top:36%;
-    left:7%;
-    transform: translate(-50%, -50%);
-} */
-
-/* button, .botao-espaco {
-    background-color: transparent;
-    color: transparent;
-    border-color: transparent;
-    display: flex;
-    justify-content: left;
-    align-items: left;
-} */
-
-/* #Logar {
-    background-color: #5500FF;
-    border-color: #5500FF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    color: white;
-} */
-
-/* #card-header {
-    background-color:orange;
-    color:white
-
-} */
-
-/* #Layout-BT {
-    background-color:whitesmoke;
-    color: darkorange;
-    border-color: whitesmoke;
-
-} */
-
-.material-icons {
-    color: white;
-}
-
-/* .div-info {
-    padding: 0;
-    margin: 0;
-} */
-
-.status-icon {
-    color: #52C41A;
-    font-size: 12px;
-}
-
-.status-icon-off {
-    color: #F5222D;
-    font-size: 12px;
-}
-
 #Table {
     margin: auto auto;
     text-align: center;
@@ -166,21 +91,10 @@ button, .botao-pesquisa {
     font-size: 14px;
 }   
 
-/* #Cabecalho {
-    background-color: #bfbfbf;
-    color: black;
-
-}    */
-/* 
-#buttonAdd {
-    align-self: lef;
-} */
-
-
-
-
-
-
+table td {
+    height: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
 
 .cabecalho-tabela {
     background-color: #eeeeee;
@@ -188,17 +102,11 @@ button, .botao-pesquisa {
     border-top: 1px solid rgba(0, 0, 0, 0.125);
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
-
 .table-id {
     padding: 0 15px;
-    /* background-color: red; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 
 .table-cliente {
-    /* background-color: blue; */
     padding: 0 15px;
     text-align: start;
 }
@@ -228,6 +136,16 @@ button, .botao-pesquisa {
     width: 110px;
 }
 
+.status-icon {
+    color: #52C41A;
+    font-size: 12px;
+}
+
+.status-icon-off {
+    color: #F5222D;
+    font-size: 12px;
+}
+
 .table-acoes {
     padding: 0 15px;
     margin: auto auto;
@@ -242,11 +160,4 @@ td button {
     border-radius: 5px;
     font-size: 14px;
     text-transform: lowercase;
-}
-
-table td {
-    height: 50px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-    /* padding: 10px 0; */
-    /* margin: 10px 0; */
 }
